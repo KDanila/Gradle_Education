@@ -37,7 +37,7 @@ failed test is identified and a stacktrace is provided for debugging purposes.
 
 apply plugin: 'java'
 
-repositories {
+repositories {  
     mavenCentral()
 }
 

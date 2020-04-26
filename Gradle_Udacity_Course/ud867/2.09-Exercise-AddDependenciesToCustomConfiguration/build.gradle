@@ -27,6 +27,9 @@ plugins {
     id 'java'
 }
 
+repositories {
+    mavenCentral()
+}
 
 configurations{
 	deps
@@ -37,9 +40,6 @@ dependencies{
 	deps 'com.google.guava:guava:18.0'
 }
 
-repositories {
-    mavenCentral()
-}
 
 task zipDeps(type: Zip){
     baseName = "dependencyArchive"
